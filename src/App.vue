@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  
+  <conditional_rendering />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import conditional_rendering from './components/conditional_rendering.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    conditional_rendering
   }
 }
 </script>
